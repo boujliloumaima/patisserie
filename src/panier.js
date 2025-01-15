@@ -22,7 +22,7 @@ function Panier() {
     // Vérifier si les informations de l'utilisateur sont complètes
     if (!isUserInfoComplete) {
       toast.info("Vous devez vous inscrire pour valider votre commande", {
-        position: "top-center",
+        position: "top-right",
         autoClose: 5000,
         hideProgressBar: false,
         closeOnClick: false,
@@ -72,7 +72,7 @@ function Panier() {
         const jsonResponse = await response.json();
         console.log("Réponse du serveur:", jsonResponse);
         toast.success("Commande envoyée avec succès", {
-          position: "top-center",
+          position: "top-right",
           autoClose: 5000,
           hideProgressBar: false,
           closeOnClick: false,
@@ -85,8 +85,8 @@ function Panier() {
         navigate("/confirmation");
       } else {
         const errorMessage = await response.text(); // Récupérer le message d'erreur détaillé
-        toast.error(`Erreur lors de l'envoi de la commande. ${errorMessage}`, {
-          position: "top-center",
+        toast.error(`Erreur lors de l'envoi de la commande.`, {
+          position: "top-right",
           autoClose: 5000,
           hideProgressBar: false,
           closeOnClick: false,
@@ -98,7 +98,7 @@ function Panier() {
       }
     } catch (error) {
       toast.error("Erreur lors de l'envoi de la commande. Réessayer!", {
-        position: "top-center",
+        position: "top-right",
         autoClose: 5000,
         hideProgressBar: false,
         closeOnClick: false,
@@ -164,7 +164,7 @@ function Panier() {
                   </div>
                   <div className="cart-item-details">
                     <h2 className="cart-item-title">{item.name}</h2>
-                    <p className="cart-item-price">{item.prix} dh</p>
+                    <p className="cart-item-price">{item.prix} MAD</p>
 
                     {/* Modifier la quantité */}
 
@@ -236,7 +236,7 @@ function Panier() {
         {cartItems.length > 0 && (
           <div className="cart-summary">
             <p style={{ textAlign: "center" }}>
-              <strong>Total:</strong> {total} dh
+              <strong>Total:</strong> {total} MAD
             </p>
             <button
               onClick={handleSubmit}

@@ -26,7 +26,7 @@ const Inscription = () => {
       navigate("/panier");
     } else {
       toast.error(`Veuillez remplir tous les champs`, {
-        position: "top-center",
+        position: "top-right",
         autoClose: 5000,
         hideProgressBar: false,
         closeOnClick: false,
