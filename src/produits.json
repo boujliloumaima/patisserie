@@ -1,0 +1,507 @@
+[
+  {
+    "id": 1,
+    "name": "sablé",
+    "description": "sablé fenition au chokola et amande",
+    "image": "https://i.ibb.co/2h0z2WJ/sabl-ward.jpg",
+    "prix": "100",
+    "category": "sablé"
+  },
+  {
+    "id": 2,
+    "name": "sablé snikerz",
+    "description": "sablé au chokola et amande",
+    "image": "https://i.ibb.co/XpBX7k9/snikers.jpg",
+    "prix": "130",
+    "category": "sablé"
+  },
+  {
+    "id": 3,
+    "name": "sablé camarel",
+    "description": "sablé au chokola et amande",
+    "image": "https://i.ibb.co/jTW8dvm/karamel.jpg",
+    "prix": "100",
+    "category": "sablé"
+  },
+  {
+    "id": 4,
+    "name": "arabisc",
+    "description": "sablé en amande",
+    "image": "https://i.ibb.co/8bn6LHs/sable-ch-a4.jpg",
+    "prix": "100",
+    "category": "sablé"
+  },
+  {
+    "id": 5,
+    "name": "halwa dlouz",
+    "description": "gateau en amande",
+    "image": "https://i.ibb.co/0p5FPYs/halwa-dlouz.jpg",
+    "prix": 150,
+    "category": "halwa dlouz"
+  },
+
+  {
+    "id": 6,
+    "name": "halwa dlouz",
+    "description": "gateau en amande",
+    "image": "https://i.ibb.co/NT7Mc04/amande2.jpg",
+    "prix": "150",
+    "category": "halwa dlouz"
+  },
+  {
+    "id": 7,
+    "name": "halwa dlouz",
+    "description": "gateau en amande",
+    "image": "https://i.ibb.co/RcNX669/IMG-20241221-WA0007.jpg",
+    "prix": "150",
+    "category": "halwa dlouz"
+  },
+  {
+    "id": 8,
+    "name": "gateau",
+    "description": "gateau en amande",
+    "image": "https://i.ibb.co/sRbkqVk/IMG-20241221-WA0009.jpg",
+    "prix": 150,
+    "category": "halwa dlouz"
+  },
+  {
+    "id": 9,
+    "name": "richbond",
+    "description": "dwaz atay blimon o coco",
+    "image": "https://i.ibb.co/T2D9vfW/richbond.jpg",
+    "prix": 150,
+    "category": "sablé"
+  },
+  {
+    "id": 10,
+    "name": "sablé personalisé",
+    "description": "sablé personalisé à pate à chocola",
+    "image": "https://i.ibb.co/KjNMmmV/sponjbob.jpg",
+    "prix": 150,
+    "category": "sablé"
+  },
+  {
+    "id": 11,
+    "name": "ka3ba",
+    "description": "k3ba blouz",
+    "image": "https://i.ibb.co/j34tVpd/ka3ba.jpg",
+    "prix": 150,
+    "category": "halwa dlouz"
+  },
+  {
+    "id": 12,
+    "name": "chahda",
+    "description": "halwa dlouz",
+    "image": "https://i.ibb.co/PNLyKc1/chahda.jpg",
+    "prix": 150,
+    "category": "halwa dlouz"
+  },
+  {
+    "id": 13,
+    "name": "sablé personalisé",
+    "description": "sablé personalisé à pate à chocola",
+    "image": "https://i.ibb.co/R3N89Mj/mous.jpg",
+    "prix": 150,
+    "category": "sablé"
+  },
+  {
+    "id": 14,
+    "name": "sablé",
+    "description": "sablé finition bchklat o kawkaw",
+    "image": "https://i.ibb.co/CHhwH34/kalb.jpg",
+    "prix": 90,
+    "category": "sablé"
+  },
+  {
+    "id": 15,
+    "name": "maamoul tmar",
+    "description": "lmaamoul btmar ozanjlan",
+    "image": "https://i.ibb.co/Pt2KVfX/maamoul.jpg",
+    "prix": 80,
+    "category": "sablé"
+  },
+  {
+    "id": 15,
+    "name": "gateau personnalisé",
+    "description": "halwa blouz o chklat",
+    "image": "https://i.ibb.co/DfsBKm3/bligha.jpg",
+    "prix": 150,
+    "category": "halwa dlouz"
+  },
+  {
+    "id": 16,
+    "name": "halazona",
+    "description": "halwa blouz finition b louz batonier",
+    "image": "https://i.ibb.co/CmNyST4/halazona.jpg",
+    "prix": 150,
+    "category": "halwa dlouz"
+  },
+  {
+    "id": 17,
+    "name": "konafa",
+    "description": "dwaz atay zabda spécial bkonafa o chklat",
+    "image": "https://i.ibb.co/GQnKpDx/konafa.jpg",
+    "prix": 100,
+    "category": "sablé"
+  },
+  {
+    "id": 18,
+    "name": "lfa9as",
+    "description": "lfa9as blouz ozrar3 ",
+    "image": "https://i.ibb.co/3YkmYkf/lfa9as.jpg",
+    "prix": 80,
+    "category": "sablé"
+  },
+  {
+    "id": 19,
+    "name": "lm3alka",
+    "description": "m3alka blcoc osmida",
+    "image": "https://i.ibb.co/Sy4B8s2/m3alka.jpg",
+    "prix": 80,
+    "category": "sablé"
+  },
+  {
+    "id": 20,
+    "name": "plateau",
+    "description": "m3alka blcoc osmida",
+    "image": "https://i.ibb.co/zbssNR7/plato-1.jpg",
+    "prix": 70,
+    "category": "plateau"
+  },
+  {
+    "id": 21,
+    "name": "lbahla",
+    "description": "lbahla blouz ",
+    "image": "https://i.ibb.co/B41qYym/lbahla.jpg",
+    "prix": 70,
+    "category": "sablé"
+  },
+  {
+    "id": 22,
+    "name": "sablé lkhalkhal",
+    "description": "sable finition bchaklat oloz",
+    "image": "https://i.ibb.co/6B2MPTH/sabl-khakhal-1.jpg",
+    "prix": 100,
+    "category": "sablé"
+  },
+  {
+    "id": 23,
+    "name": "lfa9as pristige",
+    "description": "lfa9as blouz olgarga3",
+    "image": "https://i.ibb.co/Pcr0b3h/fa9aspristige.jpg",
+    "prix": 150,
+    "category": "sablé"
+  },
+  {
+    "id": 24,
+    "name": "cake design",
+    "description": "m3alka blcoc osmida",
+    "image": "https://i.ibb.co/52xDY9Q/kalbp.jpg",
+    "prix": 170,
+    "category": "cake design"
+  },
+  {
+    "id": 25,
+    "name": "cake",
+    "description": "cake avec pate à chokolat et la mouse",
+    "image": "https://i.ibb.co/RHsxfdj/khtana.jpg",
+    "prix": 170,
+    "category": "cake design"
+  },
+  {
+    "id": 26,
+    "name": "halwa dlouz",
+    "description": "corni blouz ochklat k7al",
+    "image": "https://i.ibb.co/Xxs9qHh/korne.jpg",
+    "prix": 160,
+    "category": "halwa dlouz"
+  },
+  {
+    "id": 27,
+    "name": "cake design",
+    "description": "cake avec pate à chokolat et la mouse",
+    "image": "https://i.ibb.co/hy34C9v/cakedesigne-1.jpg",
+    "prix": 170,
+    "category": "cake design"
+  },
+  {
+    "id": 28,
+    "name": "cake design",
+    "description": "cake avec pate à chokolat et la mouse",
+    "image": "https://i.ibb.co/HHsFcyr/cakedesigne-2.jpg",
+    "prix": 170,
+    "category": "cake design"
+  },
+  {
+    "id": 29,
+    "name": "cake design",
+    "description": "cake avec pate à chokolat et la mouse",
+    "image": "https://i.ibb.co/qjxtv4S/cakedesigne-3.jpg",
+    "prix": 170,
+    "category": "cake design"
+  },
+  {
+    "id": 30,
+    "name": "cake design",
+    "description": "cake avec pate à chokolat et la mouse",
+    "image": "https://i.ibb.co/YZnd3Kb/cakedesigne-4.jpg",
+    "prix": 170,
+    "category": "cake design"
+  },
+  {
+    "id": 31,
+    "name": "cake design",
+    "description": "cake avec pate à chokolat et la mouse",
+    "image": "https://i.ibb.co/68zYSWB/cakedesigne-5.jpg",
+    "prix": 170,
+    "category": "cake design"
+  },
+  {
+    "id": 32,
+    "name": "cake design",
+    "description": "cake avec pate à chokolat et la mouse",
+    "image": "https://i.ibb.co/0nB2v3t/cakedesigne-6.jpg",
+    "prix": 170,
+    "category": "cake design"
+  },
+  {
+    "id": 33,
+    "name": "cake design",
+    "description": "cake avec pate à chokolat et la mouse",
+    "image": "https://i.ibb.co/TPr5KDr/cakedesigne-7.jpg",
+    "prix": 170,
+    "category": "cake design"
+  },
+  {
+    "id": 34,
+    "name": "cake design",
+    "description": "cake avec pate à chokolat et la mouse",
+    "image": "https://i.ibb.co/LYZQc88/cakedesigne-8.jpg",
+    "prix": 170,
+    "category": "cake design"
+  },
+  {
+    "id": 35,
+    "name": "cake design",
+    "description": "cake avec pate à chokolat et la mouse",
+    "image": "https://i.ibb.co/9bFfBV3/cakedesigne-9.jpg",
+    "prix": 170,
+    "category": "cake design"
+  },
+  {
+    "id": 36,
+    "name": "cake design",
+    "description": "cake avec pate à chokolat et la mouse",
+    "image": "https://i.ibb.co/g7d2Y0d/cakedesigne-10.jpg",
+    "prix": 170,
+    "category": "cake design"
+  },
+  {
+    "id": 37,
+    "name": "m3alka dkawkaw",
+    "description": "m3alka bkawkaw lbaldi",
+    "image": "https://i.ibb.co/fGXP7WG/M3alkakawkaw.jpg",
+    "prix": 80,
+    "category": "sablé"
+  },
+  {
+    "id": 38,
+    "name": "lmlowza",
+    "description": "m3alka dlouz",
+    "image": "https://i.ibb.co/YRPHzK7/m3alka-louz.jpg",
+    "prix": 150,
+    "category": "halwa dlouz"
+  },
+  {
+    "id": 39,
+    "name": "sablé chmisa",
+    "description": "sablé bnoga",
+    "image": "https://i.ibb.co/GcZ3LRM/sabl-chmisa.jpg",
+    "prix": 90,
+    "category": "sablé"
+  },
+  {
+    "id": 40,
+    "name": "sablé lgarga3a",
+    "description": "sable finition bchaklat olgarga3",
+    "image": "https://i.ibb.co/0fpCSyV/sabl-garga3a-2.jpg",
+    "prix": 120,
+    "category": "sablé"
+  },
+  {
+    "id": 41,
+    "name": "sablé lkhalkhal",
+    "description": "sable finition bchaklat oloz olward",
+    "image": "https://i.ibb.co/R01F1BC/sabl-khakhal-2.jpg",
+    "prix": 120,
+    "category": "sablé"
+  },
+  {
+    "id": 42,
+    "name": "sablé",
+    "description": "sable finition bkawkaw",
+    "image": "https://i.ibb.co/njwfQcd/sabl-3adi.jpg",
+    "prix": 150,
+    "category": "sablé"
+  },
+  {
+    "id": 43,
+    "name": "sablé",
+    "description": "sable finition bnoga loz ifili",
+    "image": "https://i.ibb.co/55mrNzg/sabl-ifili.jpg",
+    "prix": 120,
+    "category": "sablé"
+  },
+  {
+    "id": 44,
+    "name": "plateau",
+    "description": "",
+    "image": "https://i.ibb.co/Th9twpq/plato-2.jpg",
+    "prix": 150,
+    "category": "plateau"
+  },
+  {
+    "id": 45,
+    "name": "plateau",
+    "description": "",
+    "image": "https://i.ibb.co/P4XJnys/plato-3.jpg",
+    "prix": 150,
+    "category": "plateau"
+  },
+  {
+    "id": 46,
+    "name": "plateau",
+    "description": "",
+    "image": "https://i.ibb.co/Myv3Hrp/plato-4.jpg",
+    "prix": 150,
+    "category": "plateau"
+  },
+  {
+    "id": 47,
+    "name": "plateau",
+    "description": "",
+    "image": "https://i.ibb.co/cTkgqm9/plato-5.jpg",
+    "prix": 150,
+    "category": "plateau"
+  },
+  {
+    "id": 48,
+    "name": "plateau",
+    "description": "",
+    "image": "https://i.ibb.co/4SG5gnQ/plato-6.jpg",
+    "prix": 150,
+    "category": "plateau"
+  },
+  {
+    "id": 49,
+    "name": "plateau",
+    "description": "",
+    "image": "https://i.ibb.co/ZVqx46x/plato-7.jpg",
+    "prix": 150,
+    "category": "plateau"
+  },
+  {
+    "id": 50,
+    "name": "plateau",
+    "description": "",
+    "image": "https://i.ibb.co/6rbFpBs/plato-8.jpg",
+    "prix": 150,
+    "category": "plateau"
+  },
+  {
+    "id": 51,
+    "name": "plateau",
+    "description": "",
+    "image": "https://i.ibb.co/27GsQp9/plato-9.jpg",
+    "prix": 150,
+    "category": "plateau"
+  },
+  {
+    "id": 52,
+    "name": "plateau",
+    "description": "",
+    "image": "https://i.ibb.co/ygyCDT4/plato-10.jpg",
+    "prix": 150,
+    "category": "plateau"
+  },
+  {
+    "id": 53,
+    "name": "plateau",
+    "description": "",
+    "image": "https://i.ibb.co/6H9T1fj/plato-11.jpg",
+    "prix": 150,
+    "category": "plateau"
+  },
+  {
+    "id": 54,
+    "name": "plateau",
+    "description": "",
+    "image": "https://i.ibb.co/CBFgRRz/plato-12.jpg",
+    "prix": 150,
+    "category": "plateau"
+  },
+  {
+    "id": 55,
+    "name": "plateau",
+    "description": "",
+    "image": "https://i.ibb.co/ph0r2CQ/plato-13.jpg",
+    "prix": 150,
+    "category": "plateau"
+  },
+  {
+    "id": 56,
+    "name": "plateau",
+    "description": "",
+    "image": "https://i.ibb.co/3Y996C8/plato-14.jpg",
+    "prix": 150,
+    "category": "plateau"
+  },
+  {
+    "id": 57,
+    "name": "plateau",
+    "description": "",
+    "image": "https://i.ibb.co/dDMJZfK/plato-15.jpg",
+    "prix": 150,
+    "category": "plateau"
+  },
+  {
+    "id": 58,
+    "name": "plateau",
+    "description": "",
+    "image": "https://i.ibb.co/pWzfHQp/plato-16.jpg",
+    "prix": 150,
+    "category": "plateau"
+  },
+  {
+    "id": 59,
+    "name": "plateau",
+    "description": "",
+    "image": "https://i.ibb.co/s1PF3Qs/plato-17.jpg",
+    "prix": 150,
+    "category": "plateau"
+  },
+  {
+    "id": 60,
+    "name": "plateau",
+    "description": "",
+    "image": "https://i.ibb.co/g4dh99q/plato-18.jpg",
+    "prix": 150,
+    "category": "plateau"
+  },
+  {
+    "id": 61,
+    "name": "plateau",
+    "description": "",
+    "image": "https://i.ibb.co/WnxpJ7b/plato-19.jpg",
+    "prix": 150,
+    "category": "plateau"
+  },
+  {
+    "id": 62,
+    "name": "plateau",
+    "description": "",
+    "image": "https://i.ibb.co/YQrqrF1/plato-20.jpg",
+    "prix": 150,
+    "category": "plateau"
+  }
+]
