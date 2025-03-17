@@ -52,10 +52,13 @@ export default function Nav() {
       <div>
         <div className="nav-container">
           {/* Hamburger Icon */}
-          <div className="hamburger-icon" onClick={toggleMenu}>
-            <div className="line"></div>
-            <div className="line"></div>
-            <div className="line"></div>
+          <div>
+            <img
+              src="doubler.png"
+              alt="err"
+              className="hamburger-icon"
+              onClick={toggleMenu}
+            />
           </div>
 
           {/* Nav Links - Show or hide based on menu state */}
