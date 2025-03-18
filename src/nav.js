@@ -10,9 +10,6 @@ export default function Nav() {
 
   const cartItems = useSelector((state) => state.cart.cartItems);
 
-  // Récupérer les informations de l'utilisateur depuis Redux
-  const { isLoggedIn, name } = useSelector((state) => state.user);
-
   // Calculer le nombre total d'articles dans le panier
   const totalItems = cartItems.length;
 
@@ -25,12 +22,10 @@ export default function Nav() {
     <div className="global">
       <div className="header">
         <div className="user-container">
-          {/* Afficher l'icône et le nom de l'utilisateur si connecté */}
           <Link to="inscription">
             <img src="user.png" alt="insription" className="icons" />
             <br></br>
           </Link>
-          {isLoggedIn && <span>{name}</span>} {/* Affichage du nom */}
         </div>
 
         <img
@@ -51,7 +46,6 @@ export default function Nav() {
       </div>
       <div>
         <div className="nav-container">
-          {/* Hamburger Icon */}
           <div>
             <img
               src="doubler.png"
@@ -60,8 +54,6 @@ export default function Nav() {
               onClick={toggleMenu}
             />
           </div>
-
-          {/* Nav Links - Show or hide based on menu state */}
           <ul className={`nav-links ${isMenuOpen ? "active" : ""}`}>
             <li>
               <NavLink to="/" className="nav-link" onClick={toggleMenu}>
@@ -71,9 +63,9 @@ export default function Nav() {
             <li>
               <NavLink
                 to="sablé"
-                className="nav-link"
+                className={`nav-link ${({ isActive }) =>
+                  isActive ? "active" : ""}`}
                 onClick={toggleMenu}
-                id={`${isMenuOpen ? "active" : ""}`}
               >
                 Sablé
               </NavLink>
@@ -81,21 +73,28 @@ export default function Nav() {
             <li>
               <NavLink
                 to="halwa dlouz"
-                className="nav-link"
+                className={`nav-link ${({ isActive }) =>
+                  isActive ? "active" : ""}`}
                 onClick={toggleMenu}
               >
                 halwa dlouz
               </NavLink>
             </li>
             <li>
-              <NavLink to="plateau" className="nav-link" onClick={toggleMenu}>
+              <NavLink
+                to="plateau"
+                className={`nav-link ${({ isActive }) =>
+                  isActive ? "active" : ""}`}
+                onClick={toggleMenu}
+              >
                 plateau
               </NavLink>
             </li>
             <li>
               <NavLink
                 to="cake design"
-                className="nav-link"
+                className={`nav-link ${({ isActive }) =>
+                  isActive ? "active" : ""}`}
                 onClick={toggleMenu}
               >
                 cake design

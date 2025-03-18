@@ -146,7 +146,7 @@ function Panier() {
             <h3 style={{ textAlign: "center" }}>
               Votre panier est actuellement vide !
             </h3>
-            <Link to={"/"}>
+            <Link to={"/"} style={{ textDecoration: "none" }}>
               <button className="retournerbt">Aller à la boutique</button>
             </Link>
           </div>

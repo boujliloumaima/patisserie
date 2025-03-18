@@ -361,13 +361,6 @@ h1 {
   cursor: pointer;
 }
 
-.hamburger-icon .line {
-  width: 100%;
-  height: 4px;
-  background-color: black;
-  border-radius: 5px;
-}
-
 .nav-link::after {
   content: ""; /* Nécessaire pour l'élément pseudo */
   position: absolute;
