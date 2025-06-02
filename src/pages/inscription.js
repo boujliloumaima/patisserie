@@ -5,34 +5,41 @@ import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 
 const Inscription = () => {
-  const [nom, setNom] = useState("");
-  const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState("");
-  const [address, setAddress] = useState("");
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    address: "",
+  });
+
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (nom.trim() && email.trim() && phone.trim() && address.trim()) {
-      dispatch(
-        enregistrerUtilisateur({
-          name: nom,
-          email: email,
-          phone: phone,
-          address: address,
-        })
-      );
+
+    const { name, email, phone, address } = formData;
+
+    if (name && email && phone && address) {
+      dispatch(enregistrerUtilisateur({ name, email, phone, address }));
+      toast.success("Inscription réussie !", {
+        position: "top-right",
+        autoClose: 3000,
+        theme: "light",
+      });
       navigate("/panier");
     } else {
-      toast.error(`Veuillez remplir tous les champs`, {
+      toast.error("Veuillez remplir tous les champs", {
         position: "top-right",
         autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: false,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
         theme: "light",
       });
     }
@@ -46,40 +53,40 @@ const Inscription = () => {
           <div>
             <input
               type="text"
-              id="nom"
+              name="name"
               placeholder="Entrez votre nom"
-              value={nom}
-              onChange={(e) => setNom(e.target.value)}
+              value={formData.name}
+              onChange={handleChange}
             />
           </div>
           <div>
             <input
               type="email"
-              id="email"
+              name="email"
               placeholder="Entrez votre email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
+              value={formData.email}
+              onChange={handleChange}
             />
           </div>
           <div>
             <input
               type="tel"
-              id="phone"
+              name="phone"
               placeholder="Entrez votre téléphone"
-              value={phone}
-              onChange={(e) => setPhone(e.target.value)}
+              value={formData.phone}
+              onChange={handleChange}
             />
           </div>
           <div>
             <input
               type="text"
-              id="address"
+              name="address"
               placeholder="Entrez votre adresse"
-              value={address}
-              onChange={(e) => setAddress(e.target.value)}
+              value={formData.address}
+              onChange={handleChange}
             />
           </div>
-          <button type="submit">S'inscrire</button>
+          <button type="submit">Valider l'inscription</button>
         </form>
       </div>
     </div>

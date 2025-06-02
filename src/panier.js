@@ -1,25 +1,22 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { removeFromCart, updateQuantity, clearCart } from "./cartSlice";
-import { Link, useNavigate } from "react-router-dom"; // Remplacez useHistory par useNavigate
+import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
-//import toast from "react-hot-toast";
 
 function Panier() {
+  console.log(document.cookie);
   const [isSubmitting, setIsSubmitting] = useState(false);
   let cartItems = useSelector((state) => state.cart.cartItems);
-  const { name, email, phone, address } = useSelector((state) => state.user); // Récupérer les infos utilisateur depuis Redux
-  const navigate = useNavigate(); // Utilisez useNavigate au lieu de useHistory
-
+  const { name, email, phone, address } = useSelector((state) => state.user);
+  const navigate = useNavigate();
+  const dispatch = useDispatch();
   // Vérification si les informations de l'utilisateur sont complètes
   const isUserInfoComplete = name && email && phone && address;
-  const dispatch = useDispatch();
-
   // Fonction de soumission de la commande
   const handleSubmit = async () => {
     if (isSubmitting) return; // Si la soumission est déjà en cours, ne rien faire
 
-    // Vérifier si les informations de l'utilisateur sont complètes
     if (!isUserInfoComplete) {
       toast.info("Vous devez vous inscrire pour valider votre commande", {
         position: "top-right",
@@ -31,7 +28,7 @@ function Panier() {
         progress: undefined,
         theme: "light",
       });
-      navigate("/inscription"); // Rediriger vers la page d'inscription
+      navigate("/inscription");
       return;
     }
 
@@ -48,7 +45,10 @@ function Panier() {
       },
       produits: cartItems.map((item) => ({
         nom: item.name,
-        qty: item.quantity,
+        qty:
+          item.category === "plateau"
+            ? item.quantity.toString()
+            : `${item.quantity} kg`,
         prix: item.prix,
         image: item.image,
       })),
@@ -66,11 +66,8 @@ function Panier() {
           body: JSON.stringify(data),
         }
       );
-      console.log("donnés envoyer", data);
 
       if (response.ok) {
-        const jsonResponse = await response.json();
-        console.log("Réponse du serveur:", jsonResponse);
         toast.success("Commande envoyée avec succès", {
           position: "top-right",
           autoClose: 5000,
@@ -84,7 +81,6 @@ function Panier() {
         dispatch(clearCart()); // Vide le panier après l'envoi de la commande
         navigate("/confirmation");
       } else {
-        const errorMessage = await response.text(); // Récupérer le message d'erreur détaillé
         toast.error(`Erreur lors de l'envoi de la commande.`, {
           position: "top-right",
           autoClose: 5000,
@@ -108,11 +104,10 @@ function Panier() {
         theme: "light",
       });
     } finally {
-      setIsSubmitting(false); // Réinitialiser l'état de soumission
+      setIsSubmitting(false);
     }
   };
 
-  // Calcul du total du panier
   const total = cartItems.reduce(
     (acc, item) => acc + item.prix * item.quantity,
     0

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
-import { ajouter } from "./cartSlice";
+import { addToCart } from "./cartSlice";
 import { useParams } from "react-router-dom";
 import "./index.css";
 import produits from "./produits.json";
@@ -14,7 +14,7 @@ const ProductDetail = () => {
 
   const navigate = useNavigate();
   const ajoutercard = () => {
-    dispatch(ajouter({ ...product, quantity }));
+    dispatch(addToCart({ ...product, quantity }));
     navigate("/");
   };
 

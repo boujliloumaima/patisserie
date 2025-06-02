@@ -11,7 +11,7 @@
     "id": 2,
     "name": "sablé snikerz",
     "description": "sablé au chokola et amande",
-    "image": "https://i.ibb.co/XpBX7k9/snikers.jpg",
+    "image": "snikerz.jpg",
     "prix": "130",
     "category": "sablé"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "name": "sablé camarel",
     "description": "sablé au chokola et amande",
-    "image": "https://i.ibb.co/jTW8dvm/karamel.jpg",
+    "image": "karamel.jpg",
     "prix": "100",
     "category": "sablé"
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "name": "arabisc",
     "description": "sablé en amande",
-    "image": "https://i.ibb.co/8bn6LHs/sable-ch-a4.jpg",
+    "image": "arabick.jpg",
     "prix": "100",
     "category": "sablé"
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "name": "halwa dlouz",
     "description": "halwa dlouz ",
-    "image": "https://i.ibb.co/0p5FPYs/halwa-dlouz.jpg",
+    "image": "3och.jpg",
     "prix": 160,
     "category": "halwa dlouz"
   },
@@ -44,7 +44,7 @@
     "id": 6,
     "name": "halwa dlouz",
     "description": "halwa dlouz ",
-    "image": "https://i.ibb.co/NT7Mc04/amande2.jpg",
+    "image": "louz.jpg",
     "prix": "150",
     "category": "halwa dlouz"
   },
@@ -52,7 +52,7 @@
     "id": 7,
     "name": "halwa dlouz",
     "description": "halwa dlouz finition lblouz acajou et pistach",
-    "image": "https://i.ibb.co/RcNX669/IMG-20241221-WA0007.jpg",
+    "image": "noizette.jpg",
     "prix": "170",
     "category": "halwa dlouz"
   },
@@ -60,7 +60,7 @@
     "id": 8,
     "name": "halwa dlouz",
     "description": "halwa dlouz finition lblouz et acajou ",
-    "image": "https://i.ibb.co/sRbkqVk/IMG-20241221-WA0009.jpg",
+    "image": "lozmraba3.jpg",
     "prix": 170,
     "category": "halwa dlouz"
   },
@@ -68,7 +68,7 @@
     "id": 9,
     "name": "richbond",
     "description": "dwaz atay blimon o coco",
-    "image": "https://i.ibb.co/T2D9vfW/richbond.jpg",
+    "image": "rechbond.jpg",
     "prix": 80,
     "category": "sablé"
   },
@@ -76,7 +76,7 @@
     "id": 10,
     "name": "sablé personalisé",
     "description": "sablé personalisé à pate à chocola",
-    "image": "https://i.ibb.co/KjNMmmV/sponjbob.jpg",
+    "image": "sponjbob.jpg",
     "prix": 150,
     "category": "sablé"
   },
@@ -84,7 +84,7 @@
     "id": 11,
     "name": "ka3ba",
     "description": "k3ba blouz",
-    "image": "https://i.ibb.co/j34tVpd/ka3ba.jpg",
+    "image": "ka3ba.jpg",
     "prix": 150,
     "category": "halwa dlouz"
   },
@@ -92,15 +92,15 @@
     "id": 12,
     "name": "chahda",
     "description": "halwa dlouz",
-    "image": "https://i.ibb.co/PNLyKc1/chahda.jpg",
+    "image": "chahda.jpg",
     "prix": 160,
     "category": "halwa dlouz"
   },
   {
     "id": 13,
-    "name": "sablé personalisé",
+    "name": "sablé zyada",
     "description": "sablé personalisé à pate à chocola",
-    "image": "https://i.ibb.co/R3N89Mj/mous.jpg",
+    "image": "sable zyada.jpg",
     "prix": 150,
     "category": "sablé"
   },
@@ -108,7 +108,7 @@
     "id": 14,
     "name": "sablé",
     "description": "sablé finition bchklat o kawkaw",
-    "image": "https://i.ibb.co/CHhwH34/kalb.jpg",
+    "image": "sable.jpg",
     "prix": 90,
     "category": "sablé"
   },
@@ -116,7 +116,7 @@
     "id": 15,
     "name": "maamoul tmar",
     "description": "lmaamoul btmar ozanjlan",
-    "image": "https://i.ibb.co/Pt2KVfX/maamoul.jpg",
+    "image": "lma3moul.jpg",
     "prix": 80,
     "category": "sablé"
   },
@@ -124,7 +124,7 @@
     "id": 15,
     "name": "gateau personnalisé",
     "description": "halwa blouz o chklat",
-    "image": "https://i.ibb.co/DfsBKm3/bligha.jpg",
+    "image": "blgha.jpg",
     "prix": 150,
     "category": "halwa dlouz"
   },
@@ -132,7 +132,7 @@
     "id": 16,
     "name": "halazona",
     "description": "halwa blouz finition b louz batonier",
-    "image": "https://i.ibb.co/CmNyST4/halazona.jpg",
+    "image": "halazona.jpg",
     "prix": 120,
     "category": "halwa dlouz"
   },
@@ -140,7 +140,7 @@
     "id": 17,
     "name": "konafa",
     "description": "dwaz atay zabda spécial bkonafa o chklat",
-    "image": "https://i.ibb.co/GQnKpDx/konafa.jpg",
+    "image": "konafa.jpg",
     "prix": 100,
     "category": "sablé"
   },
@@ -148,7 +148,7 @@
     "id": 18,
     "name": "lfa9as",
     "description": "lfa9as blouz ozrar3 ",
-    "image": "https://i.ibb.co/3YkmYkf/lfa9as.jpg",
+    "image": "fa9as.jpg",
     "prix": 80,
     "category": "sablé"
   },
@@ -156,7 +156,7 @@
     "id": 19,
     "name": "lm3alka",
     "description": "m3alka blcoc osmida",
-    "image": "https://i.ibb.co/Sy4B8s2/m3alka.jpg",
+    "image": "lm3alka.jpg",
     "prix": 80,
     "category": "sablé"
   },
@@ -220,7 +220,7 @@
     "id": 27,
     "name": "cake design",
     "description": "cake avec pate à chokolat et crème cramel",
-    "image": "https://i.ibb.co/hy34C9v/cakedesigne-1.jpg",
+    "image": "tmbil.jpg",
     "prix": 130,
     "category": "cake design"
   },
@@ -228,7 +228,7 @@
     "id": 28,
     "name": "cake design",
     "description": "cake avec pate à chokolat et la mouse",
-    "image": "https://i.ibb.co/HHsFcyr/cakedesigne-2.jpg",
+    "image": "klb.jpg",
     "prix": 170,
     "category": "cake design"
   },
@@ -236,7 +236,7 @@
     "id": 29,
     "name": "cake design",
     "description": "cake avec pate à chokolat et la mouse",
-    "image": "https://i.ibb.co/qjxtv4S/cakedesigne-3.jpg",
+    "image": "dog.jpg",
     "prix": 170,
     "category": "cake design"
   },
@@ -244,7 +244,7 @@
     "id": 30,
     "name": "cake design",
     "description": "cake avec pate à chokolat et la mouse",
-    "image": "https://i.ibb.co/YZnd3Kb/cakedesigne-4.jpg",
+    "image": "dor.jpg",
     "prix": 170,
     "category": "cake design"
   },
@@ -252,7 +252,7 @@
     "id": 31,
     "name": "cake design",
     "description": "cake avec pate à chokolat et la mouse",
-    "image": "https://i.ibb.co/68zYSWB/cakedesigne-5.jpg",
+    "image": "mehdi.jpg",
     "prix": 170,
     "category": "cake design"
   },
@@ -260,7 +260,7 @@
     "id": 32,
     "name": "cake design",
     "description": "cake avec pate à chokolat et la mouse",
-    "image": "https://i.ibb.co/0nB2v3t/cakedesigne-6.jpg",
+    "image": "nada.jpg",
     "prix": 170,
     "category": "cake design"
   },
@@ -268,7 +268,7 @@
     "id": 33,
     "name": "cake design",
     "description": "cake avec pate à chokolat et la mouse",
-    "image": "https://i.ibb.co/TPr5KDr/cakedesigne-7.jpg",
+    "image": "mecanique.jpg",
     "prix": 170,
     "category": "cake design"
   },
@@ -276,7 +276,7 @@
     "id": 34,
     "name": "cake design",
     "description": "cake avec pate à chokolat et la mouse",
-    "image": "https://i.ibb.co/LYZQc88/cakedesigne-8.jpg",
+    "image": "mecup.jpg",
     "prix": 170,
     "category": "cake design"
   },
@@ -284,7 +284,7 @@
     "id": 35,
     "name": "cake design",
     "description": "cake avec pate à chokolat et la mouse",
-    "image": "https://i.ibb.co/9bFfBV3/cakedesigne-9.jpg",
+    "image": "dentiste.jpg",
     "prix": 170,
     "category": "cake design"
   },
@@ -292,7 +292,7 @@
     "id": 36,
     "name": "cake design",
     "description": "cake avec pate à chokolat et la mouse",
-    "image": "https://i.ibb.co/g7d2Y0d/cakedesigne-10.jpg",
+    "image": "rim.jpg",
     "prix": 170,
     "category": "cake design"
   },
